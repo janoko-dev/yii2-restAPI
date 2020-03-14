@@ -1,5 +1,5 @@
 {
-    "name": "janoko-dev/yii2-restAPI",
+    "name": "janoko-dev/yii2-rest-api",
     "description": "Package for implement restAPI in yii2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
