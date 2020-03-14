@@ -1,0 +1,21 @@
+{
+    "name": "janoko-dev/yii2-restAPI",
+    "description": "Package for implement restAPI in yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Gupron",
+            "email": "janoko@sandhika.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "janokoDev\\restAPI\\": ""
+        }
+    }
+}
