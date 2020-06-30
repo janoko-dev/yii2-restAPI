@@ -10,7 +10,7 @@ class AuthController extends janokoDev\restAPI\API
 }
 ```
 
-## behaviour
+## Behaviour
 
 ```php
 
@@ -36,4 +36,28 @@ class AuthController extends janokoDev\restAPI\API
     
     //.....
 }
+```
+
+## Config for json parsing
+
+change app/config/main.php. Add JSON parser in componen -> request. 
+
+```php
+return [
+
+    // .....
+    
+    'components' => [
+        'request' => [
+        
+            // .....
+            
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ]
+        ],
+    ],
+    
+    // .....
+];
 ```
